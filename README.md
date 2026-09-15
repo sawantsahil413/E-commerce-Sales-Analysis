@@ -10,7 +10,7 @@ The raw dataset contains detailed order records tracking customer segments, prod
 ## Excel Architecture & Technical Approach
 
 ### 1. Advanced Data Cleaning & Power Query ETL
-- **Automated Data Transformation:** Leveraged **Power Query** to extract, normalize, and clean raw transaction records.
+- Automated Data Transformation:** Leveraged **Power Query** to extract, normalize, and clean raw transaction records.
 - **Data Standardization:** Converted date strings into structured standard date attributes (`Order Date`, `Ship Date`) and extracted calendar dimensions (`Year`, `Month`).
 - **Anomalies & Missing Values:** Addressed data discrepancies, removed duplicate order rows, and created custom calculated columns for profit margin percentages.
 
